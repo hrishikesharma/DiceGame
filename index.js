@@ -1,4 +1,4 @@
-function run() {
+
     var randomNumber1 = Math.floor((Math.random() * 6) + 1);  //random 1-6
     document.querySelector(".img1").src = "/images/dice" + randomNumber1 + ".png";  //random dice 1-6 for left side
 
@@ -14,4 +14,3 @@ function run() {
     else {
         document.querySelector("h1").innerText = "Draw!"
     }
-}
